@@ -23,16 +23,4 @@ function recite(start, take)
 
 
     lyrics[302 - 3*(start + 2) + 2 : 302 - 3*(start + 2) + 3*take] # returned
-end
-
-#=
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-function main()
-    lines = recite(99, 100)
-    for line in lines
-        println(line)
-    end
-end
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main()
-=#
+end 
