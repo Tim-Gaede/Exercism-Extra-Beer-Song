@@ -8,7 +8,7 @@ function recite(start, take)
         push!(lyrics, "Take one down and pass it around, " *
                       string(n-1) * " bottles of beer on the wall.")
 
-        push!(lyrics, "") # nothing? <-----------------??????
+        push!(lyrics, "")
     end
 
     push!(lyrics, "2 bottles of beer on the wall, 2 bottles of beer.")
